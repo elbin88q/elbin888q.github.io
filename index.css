@@ -12,8 +12,8 @@ body{
 }
 /*header*/
 .container{
-	width:100%;
-	height:1250px;
+	width: 100%;
+	height:100%;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #ffffff;
@@ -21,10 +21,14 @@ body{
 /*navigation*/
 header{
 	width: 100%;
-	height: 5%;
-	background-color: black;
-	border-bottom:2px solid:#2C9AB7; 
-	opacity: 100%;
+	height: 10%;
+background: rgba(255, 255, 255, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.4px);
+-webkit-backdrop-filter: blur(7.4px);
+border: 1px solid rgba(255, 255, 255, 0.22);
+	
 }
 .logo{
 	color: #fff;
@@ -34,11 +38,11 @@ header{
 	float: left;
 	margin-top:15px; 
 	margin-left:25px;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 }
 nav{
 	float: right;
-	width: 50%;
+	width: 70%;
 	text-align: right; 
 	margin-right:25px;
 }
@@ -74,13 +78,15 @@ ul li:hover a{
 }
 /*hero section*/
 .hero{
-	background-image: url(44.jpg) ;
+	background-image: url(22.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	width: 1137;
+    background-position: top; 
+	width: auto;
 	height: 1000;
+	
     padding-top: 250px;
-	padding-bottom:250px;
+	padding-bottom:200px;
 }
 .light{
 	font-weight: bold;
@@ -89,14 +95,14 @@ ul li:hover a{
 .tagline{
 	text-align: center;
 	color: #ffffff;
-	margin-top: 4px;
+	margin-top: 8px;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 /*About Section*/
 .text_column {
-	width: 29%;
+	width: auto;
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
@@ -107,35 +113,38 @@ ul li:hover a{
 }
 .about {
 	padding-left: auto;
-	padding-right: 25px;
+	padding-right: 20px;
 	padding-top: auto;
-	display: inline-block;
+	padding-bottom: 20px;
+	display: flex;
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
 
 /*stats gallery*/
 .stats{
-	color: #717070
-	margin-bottom:5px;
+	color: #717070;
+	margin-bottom: 20px;
 }
 .gallery{
-	background-color: white;
+	background-color: #FFFFFF;
+    padding-top: auto;
+	height: auto;
 	clear: both;
 	display: inline-block;
 	width: 100%;
 		/* [disabled]min-width: 400px;
 */
-    padding-top:35px; 
-    padding-bottom:0px;
-    margin-bottom:0px;
-    margin-top:-5px;
+    padding-top:20px; 
+    padding-bottom:20px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .thumbnail{
 	width: 25%;
 	text-align: center;
 	float: left;
-	margin-top:35px;
+	margin-top: auto;
 }
 .gallery .thumbnail h4{
 	color:  #52BAD5;
@@ -157,6 +166,9 @@ ul li:hover a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
+	width: 100%;
+	padding: auto;
+	margin-top: auto;
 	
 	
 }
@@ -214,8 +226,8 @@ footer .footer_column p {
 .cards {
 	width: 100%;
 	height: auto;
-	max-width: 500px;
-	max-height: 400px;
+	max-width: 250px;
+	max-height: auto;
 }
 .cards1 {
 	width: 100%;
